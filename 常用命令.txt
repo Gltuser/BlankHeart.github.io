@@ -1,0 +1,6 @@
+nohup jupyter notebook --allow-root > jupyter.log 2>&1 & jupyter
+
+netsh winsock reset
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple
+
